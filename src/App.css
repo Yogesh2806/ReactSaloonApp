@@ -1,0 +1,377 @@
+.app {
+  background-color: antiquewhite;
+}
+.login-page,
+.sign-page {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login,
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 450px;
+  width: 400px;
+  transition: 0.5s ease-in-out;
+}
+.login:hover {
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.178);
+}
+.signUp:hover {
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.178);
+}
+.input-box {
+  width: 250px;
+  height: 40px;
+  margin: 10px;
+  border: 1px solid rgb(46, 46, 46);
+  border-radius: 20px;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.signIn,
+.Sign {
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+.btn {
+  border-style: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: rgb(235, 235, 235);
+}
+.btn,
+.input-box:focus {
+  outline: none;
+}
+.warning {
+  margin-top: 20px;
+}
+.create-link {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.nav {
+  background-color: antiquewhite;
+  height: 10vh;
+}
+.nav-links {
+  background-color: antiquewhite;
+  height: 10vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links ul {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.nav-links ul li a:hover {
+  color: #0062ff;
+}
+.logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.home {
+  background-color: antiquewhite;
+  height: 90vh;
+}
+.bg {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url(./components/bg.jpg);
+  height: 85vh;
+  width: 90%;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  margin: auto;
+  border-radius: 2px;
+  position: relative;
+}
+.log-btn {
+  position: absolute;
+  border-style: none;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+.sign-btn {
+  position: absolute;
+  border-style: none;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.res-btn,
+.sign-btn:focus {
+  outline: none;
+}
+.log-btn:focus {
+  outline: none;
+}
+.res-btn {
+  position: absolute;
+  border-style: none;
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  top: 70%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.about {
+  background-color: antiquewhite;
+  min-height: 90vh;
+}
+.abt-info {
+  background: url(./components/model.jpg);
+  height: 70vh;
+  width: 80%;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  margin: auto;
+  border-radius: 2px;
+}
+.details {
+  width: 80%;
+  height: 40vh;
+  margin: auto;
+}
+.details h1 {
+  letter-spacing: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.para {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.c-tag {
+  margin: auto;
+  width: 80%;
+  padding-bottom: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.customers {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.customers img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.contact {
+  min-height: 90vh;
+  background-color: antiquewhite;
+}
+.c-name {
+  width: 100%;
+  text-align: center;
+}
+.conta {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  margin-top: 50px;
+}
+
+.contact-box {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.right {
+  padding: 25px 40px;
+}
+
+.field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  min-height: 150px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  border: none;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #0062ff;
+  color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .contact-box {
+    grid-template-columns: 2fr;
+  }
+}
+.reserve {
+  min-height: 150vh;
+  background-color: antiquewhite;
+}
+textarea:focus {
+  outline: none;
+}
+text:focus {
+  outline: none;
+}
+.well {
+  width: 80%;
+  margin: auto;
+  align-self: center;
+}
+
+.well-header {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: helvetica Neue;
+  color: #1e2749;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+#disabledSelect {
+  height: 30px;
+}
+/*
+.form-control {
+  height: 30px;
+}
+*/
+.form-group1 {
+  padding-bottom: 55px;
+  height: 5px;
+  width: 70%;
+  margin: auto;
+}
+.form-group {
+  padding-bottom: 75px;
+  height: 5px;
+  width: 70%;
+  margin: auto;
+}
+
+#disabledSelect {
+  padding-bottom: 25px;
+}
+
+label {
+  font-size: 1em;
+  font-weight: bold;
+  color: #1e2749;
+  margin: auto;
+  width: 70%;
+}
+.ap-date {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header_p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: antiquewhite;
+  background: #1e2749;
+  border: solid 1px #1e2749;
+  width: 50%;
+  margin: auto;
+}
+
+.help-block {
+  color: #1e2749;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.checkbox {
+  margin-top: 150px;
+  width: 40%;
+  margin-bottom: 20px;
+  margin-left: 180px;
+}
